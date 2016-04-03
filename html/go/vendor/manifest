@@ -1,0 +1,23 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/PuerkitoBio/goquery",
+			"repository": "https://github.com/PuerkitoBio/goquery",
+			"revision": "4126223a86db8598275b29db04d511cfdab67cf1",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/andybalholm/cascadia",
+			"repository": "https://github.com/andybalholm/cascadia",
+			"revision": "3ad29d1ad1c4f2023e355603324348cf1f4b2d48",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/headzoo/surf",
+			"repository": "https://github.com/headzoo/surf",
+			"revision": "090bc9cbefd97d49762dd0020ba94194f304e318",
+			"branch": "dev"
+		}
+	]
+}

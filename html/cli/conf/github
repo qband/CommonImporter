@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+export URL="https://github.com/trending"
+export SELECTOR="li.repo-list-item json{}"
+export PROPERTIES="children[1].children[0].href children[2].text"

@@ -1,5 +1,7 @@
+MSG=github
+
 all:
-	./run.sh pssclub
+	./run.sh ${MSG}
 
 init:
 	go get github.com/ericchiang/pup
