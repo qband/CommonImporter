@@ -1,0 +1,15 @@
+#+TITLE: CommonImporter
+#+AUTHOR: qband
+#+EMAIL: q7band@gmail.com
+#+DATE: <2016-04-03 Sun>
+
+* What's this?
+
+translate dirty date to structured data
+
+support data source:
+
+- html
+- json
+
+* reference

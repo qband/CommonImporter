@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+export URL="http://pssclub.com/forum.php?mod=forumdisplay&fid=2"
+export SELECTOR="th.new > a.xst json{}"
+export PROPERTIES="text"
