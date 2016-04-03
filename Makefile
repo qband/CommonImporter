@@ -1,2 +1,2 @@
 all:
-	cd html/py && make
+	cd html/${MSG} && make

@@ -12,6 +12,10 @@ support data source:
 - html
 - json
 
+* How to run?
+
+MSG=py make
+
 * reference
 ** web spider
 - high level

@@ -9,4 +9,4 @@ if [ "${http_proxy}" != "" ]; then
 else
   CURL='curl'
 fi
-CURL -Ls $URL | pup $SELECTOR | json -a $PROPERTIES
+$CURL -Ls $URL | pup $SELECTOR | json -a $PROPERTIES
