@@ -1,3 +1,5 @@
+*/*.json
+
 #### joe made this: http://goel.io/joe
 
 #####=== Python ===#####
@@ -56,4 +58,3 @@ docs/_build/
 
 # PyBuilder
 target/
-

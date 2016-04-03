@@ -61,9 +61,10 @@ NEWSPIDER_MODULE = 'pssclub.spiders'
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
+ITEM_PIPELINES = {
 #    'pssclub.pipelines.SomePipeline': 300,
-#}
+   'pssclub.pipelines.JsonWithEncodingPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

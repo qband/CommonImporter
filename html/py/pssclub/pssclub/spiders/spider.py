@@ -9,9 +9,7 @@ class PssclubSpider(Spider):
     start_urls  = ["http://pssclub.com/forum.php?mod=forumdisplay&fid=2"]
 
     def parse(self, response):
-        for url in response.css('th.new > a.xst').re('.*/category/.*'):
-            yield scrapy.Request(response.urljoin(url), self.parse_titles)
-
-    def parse_titles(self, response):
-        for post_title in response.css('div.entries > ul > li a::text').extract():
-            yield {'title': post_title}
+        for title in response.css('th.new > a.xst::text').extract():
+            item = PssclubItem()
+            item['title'] = title
+            yield item
