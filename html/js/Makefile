@@ -3,6 +3,9 @@ all:
 		-o text \
 		"th.new > a.xst"
 
+init:
+	npm i
+
 test:
 	bin/get -u "http://moviejie.com/movie/fc2aaa/" \
 		-o attr@href \
