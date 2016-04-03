@@ -13,3 +13,8 @@ support data source:
 - json
 
 * reference
+** web spider
+- high level
+  - [[http://structured-data.org/][Semantic Web/HTML]]
+  - DSL to scrape webpage
+    - wombat

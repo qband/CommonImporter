@@ -1,2 +1,2 @@
 all:
-	cd html/cli && make
+	cd html/py && make

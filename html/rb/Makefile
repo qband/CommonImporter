@@ -1,0 +1,2 @@
+init:
+	gem install wombat

@@ -1,5 +1,5 @@
 all:
-	./run.sh pasclub
+	./run.sh pssclub
 
 init:
 	go get github.com/ericchiang/pup
