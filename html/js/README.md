@@ -4,6 +4,7 @@ a cli tool to extract data from web page
 
 ## feature
 - selector chains to get specific tag element
+- proxy support env variable `http_proxy`
 - @TODO extractor chains to get accurate data
 
 ## real world example

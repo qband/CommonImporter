@@ -1,3 +1,6 @@
+all:
+	gb build
+	bin/get
 
 init:
 	go get -u github.com/constabulary/gb/...
